@@ -1,10 +1,12 @@
 package ie.home;
 
-public class NightDiscountMck implements Discountable{
+import com.google.inject.Inject;
 
+public class NightDiscountMck implements Discountable{
+	
 	public double getDiscount() {
 		System.out.println("Testing service");
-		return 0;
+		return -1.1;
 	}
 
 }
